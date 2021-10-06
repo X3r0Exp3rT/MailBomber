@@ -12,7 +12,7 @@ def Main():
     config = str(input(f'{colors.HBYellow}Do you edited the {colors.HBRed}"config.py" {colors.HBYellow}file ? [y/n]: '))
 
     if config == "y":
-        print(f'\n{colors.HBGreen}[!] Loading {colors.HBPurple}"modules.py"\n')
+        print(f'\n{colors.HBGreen}[!] Loading {colors.HBCyan}"modules.py"\n')
         time.sleep(1)
         modules.send_mail()
 
@@ -23,5 +23,3 @@ def Main():
     else:
         print(f'\n{colors.HBRed}[!] Please! Enter a valid parameter!')
         exit(0)
-
-
