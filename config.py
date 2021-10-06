@@ -1,5 +1,5 @@
 
 """Change Gmail & Password with yours. Do Not delete Quotes"""
 
-Gmail = "dummy.luci@gmail.com"
-Password = "@dummy.123"
+Gmail = "11@gmail.com"
+Password = "11111"
