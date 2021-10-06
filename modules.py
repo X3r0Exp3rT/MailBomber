@@ -6,20 +6,20 @@ import smtplib
 
 def send_mail():
     #Taking User data
-    print(f'{colors.HBGreen}[*] {colors.HBPurple}"modules.py" {colors.HBGreen}Successfully Loaded\n')
+    print(f'{colors.HBGreen}[*] {colors.HBCyan}"modules.py" {colors.HBGreen}Successfully Loaded\n')
     time.sleep(1)
     print(f'{colors.HBGreen}[>] Programme Starting...\n')
     time.sleep(1)
     gmail = config.Gmail
     password = config.Password
     print(f'{colors.HBCyan}[|] Set {colors.HBRed}TARGET {colors.HBCyan}Mail')
-    target_mail = input(f'{colors.HBPurple}[X3r0]-> ')
+    target_mail = input(f'{colors.HBCyan}[X3r0]-> ')
     print(f'{colors.HBCyan}[|] Set Mail {colors.HBRed}SUBJECT')
-    subject = str(input(f'{colors.HBPurple}[X3r0]-> '))
+    subject = str(input(f'{colors.HBCyan}[X3r0]-> '))
     print(f'{colors.HBCyan}[|] Set Mail {colors.HBRed}BODY')
-    body = str(input(f'{colors.HBPurple}[X3r0]-> '))
+    body = str(input(f'{colors.HBCyan}[X3r0]-> '))
     print(f'{colors.HBCyan}[|] Set {colors.HBRed}AMOUNT {colors.HBCyan}of Mail')
-    amount = int(input(f'{colors.HBPurple}[X3r0]-> '))
+    amount = int(input(f'{colors.HBCyan}[X3r0]-> '))
     formated_msg = f'Subject: {subject}\n\n{body}'
     print(f'\n{colors.HBGreen}[*] Initializing Data...\n')
     time.sleep(1.5)
@@ -45,5 +45,5 @@ def send_mail():
         time.sleep(2)
     print(f'\n{colors.HBGreen}[!] BOMBING SUCCESSFUL [!]\n')
     time.sleep(1)
-    print(f'\n{colors.HBPurple}[<] Author: X3r0 Exp3rT [>]\n')
+    print(f'\n{colors.HBCyan}[<] Author: X3r0 Exp3rT [>]\n')
     exit(0)
