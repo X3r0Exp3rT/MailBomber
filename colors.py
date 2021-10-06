@@ -1,0 +1,13 @@
+HBRed = '\033[1;91m'
+HBGreen =  '\033[1;92m'
+HBYellow = '\033[1;93m'
+HBBlue = '\033[1;94m'
+HBPurple = '\033[1;95m'
+HBCyan = '\033[1;96m'
+
+HIRed = '\033[0;91m'
+HIGreen =  '\033[0;92m'
+HIYellow = '\033[0;93m'
+HIBlue = '\033[0;94m'
+HIPurple = '\033[0;95m'
+HICyan = '\033[0;96m'
